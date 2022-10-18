@@ -1,0 +1,111 @@
+
+.nav-item>a{
+    color: white !important;
+}
+.nav-item>a:hover{
+    color: rgb(164, 164, 164) !important;
+}
+#page_header{
+    padding: 15%;
+}
+
+#about{
+    padding: 20px 20px 10px 20px;
+    margin: 10px;
+}
+.about-text{
+    padding-top: 3%;
+}
+#about img{
+    width: 80%;
+    float:right;
+    padding-top: 12%;
+}
+
+#middle-text{
+    background-color: black;
+    color: white;
+    padding: 50px;
+}
+.hr-lines{
+    position: relative;
+    max-width: 100%;
+    margin: 30px auto;
+    text-align: center;
+}
+.hr-lines:before{
+    content: " ";
+    display: block;
+    height: 1px;
+    width: 43%;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    background: rgba(134, 132, 132, 0.658);
+}
+.hr-lines:after{
+    content: " ";
+    display: block;
+    height: 1px;
+    width: 43%;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    background: rgba(134, 132, 132, 0.658);
+}
+.card-body>p{
+font-size: .85rem;
+}
+.card-body>h5{
+font-size: 1rem;
+}
+#award{
+    padding: 20px 20px 10px 20px;
+    margin: 10px;
+}
+#poet{
+    padding: 20px 20px 10px 20px;
+    margin: 10px;   
+}
+
+.hr-lines_p{
+    position: relative;
+    max-width: 100%;
+    margin: 30px auto;
+    text-align: center;
+}
+.hr-lines_p:before{
+    content: " ";
+    display: block;
+    height: 1px;
+    width: 35%;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    background: rgba(134, 132, 132, 0.658);
+}
+.hr-lines_p:after{
+    content: " ";
+    display: block;
+    height: 1px;
+    width: 35%;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    background: rgba(134, 132, 132, 0.658);
+}
+#footer{
+    padding: 40px 20px 10px 20px;
+}
+#footer p{
+    color: rgb(215, 215, 215);
+}
+#footer p>b{
+    color: white;
+
+}
+.vr-line{
+    border-right: 1px solid rgba(255, 255, 255, 0.336);
+}
+
+
